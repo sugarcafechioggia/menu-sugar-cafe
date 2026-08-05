@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Il menù digitale ufficiale di Sugar Cafè.">
+  <title>Sugar Cafè | Menù</title>
+  <link rel="icon" href="assets/logo-gatto.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__grain" aria-hidden="true"></div>
+    <img class="hero__logo" src="assets/logo-orizzontale.png" alt="Sugar Cafè">
+    <p class="hero__claim">Bar · Cicchetteria · Aperitivi<br><small>Bar · Cicchetti · Aperitifs</small></p>
+    <a class="hero__cta" href="#menu"><span>Scopri il menù <small>Explore the menu</small></span> <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main id="menu">
+    <section class="intro">
+      <span class="eyebrow">Il nostro menù <small>Our menu</small></span>
+      <h1>Cosa ti va<br><em>oggi?</em></h1>
+      <p>Scegli una categoria o cerca il tuo piatto preferito.<small class="en-copy">Choose a category or search for your favourite dish.</small></p>
+      <label class="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="Cerca hamburger, spritz, pizza…" autocomplete="off">
+      </label>
+    </section>
+
+    <nav id="category-nav" class="category-nav" aria-label="Categorie del menù"></nav>
+    <div id="menu-content" class="menu-content" aria-live="polite"></div>
+    <p id="empty-state" class="empty-state" hidden>Nessun risultato. Prova con un altro nome o ingrediente.</p>
+
+    <aside class="notice">
+      <img src="assets/logo-gatto.png" alt="" aria-hidden="true">
+      <div>
+        <h2>Buono a sapersi <small>Good to know</small></h2>
+        <p>Non si paga il coperto. Per l’asporto è prevista una maggiorazione di 0,50 €. I piatti sono soggetti alla disponibilità degli ingredienti.<small class="en-copy">No cover charge. A €0.50 surcharge applies to takeaway food. Dishes are subject to ingredient availability.</small></p>
+        <button id="allergen-button" type="button">Informazioni sugli allergeni <small>Allergen information</small></button>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <img src="assets/logo-orizzontale.png" alt="Sugar Cafè">
+    <p>Il gusto, dalla colazione all’ultimo drink.<small class="en-copy">Great taste, from breakfast to the last drink.</small></p>
+    <a href="http://www.sugarcafe.it">www.sugarcafe.it</a>
+  </footer>
+
+  <dialog id="allergen-dialog">
+    <button class="dialog-close" type="button" aria-label="Chiudi">×</button>
+    <span class="eyebrow">Informazione importante <small>Important information</small></span>
+    <h2>Allergie e intolleranze <small>Allergies and intolerances</small></h2>
+    <p>Comunica sempre al personale eventuali allergie o intolleranze prima di ordinare. I prodotti possono contenere o essere entrati in contatto con:<small class="en-copy">Always tell our staff about any allergy or intolerance before ordering. Products may contain or have come into contact with:</small></p>
+    <ul id="allergen-list"></ul>
+    <p class="dialog-note">Alcuni prodotti possono essere congelati, surgelati o decongelati. Chiedi al personale per informazioni puntuali.<small class="en-copy">Some products may be frozen, deep-frozen or defrosted. Please ask our staff for detailed information.</small></p>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
