@@ -87,6 +87,7 @@ def price_value(item):
     m=re.search(r'\d+(?:[,.]\d+)?',item['price']); return float(m.group().replace(',','.')) if m else 9999
 
 def ordered(items):
+    items=[item for item in items if item.get('available',True)]
     if not any(i.get('subsection') for i in items): return [item for _,item in sorted(enumerate(items),key=lambda p:(price_value(p[1]),p[0]))]
     groups=[]
     for item in items:
@@ -96,13 +97,15 @@ def ordered(items):
 
 def item_flow(item,category_id,col_width):
     tr=translations.get(f"{category_id}|||{item['name']}|||{item.get('description','')}",{}); left=[Paragraph(item['name'],item_name)]
-    if tr.get('name'): left.append(Paragraph(tr['name'],item_en))
+    translated_name=item.get('nameEn') or tr.get('name')
+    translated_description=item.get('descriptionEn') or tr.get('description')
+    if translated_name: left.append(Paragraph(translated_name,item_en))
     if item.get('description'):
-        if category_id in ('liquori-amari','cocktails') and tr.get('description'):
-            left.append(Paragraph(f"{item['description']} <font name='Inter400' size='7.8' color='#918980'> · {tr['description']}</font>",desc_it))
+        if category_id in ('liquori-amari','cocktails') and translated_description:
+            left.append(Paragraph(f"{item['description']} <font name='Inter400' size='7.8' color='#918980'> · {translated_description}</font>",desc_it))
         else:
             left.append(Paragraph(item['description'],desc_it))
-            if tr.get('description'): left.append(Paragraph(tr['description'],desc_en))
+            if translated_description: left.append(Paragraph(translated_description,desc_en))
     price_width=58*mm if category_id=='la-cantina' else (26*mm if col_width>=85*mm else 19*mm)
     tab=Table([[left,Paragraph(item['price'],price_style)]],colWidths=[col_width-price_width,price_width])
     tab.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,0),2*mm),('TOPPADDING',(0,0),(-1,-1),.1*mm),('BOTTOMPADDING',(0,0),(-1,-1),.8*mm),('LINEBELOW',(0,0),(-1,-1),.35,LINE)]))
@@ -135,10 +138,12 @@ def balanced_two_column_chunks(items,category_id,col_width):
 
 def aperitivo_item_flow(item,category_id,col_width):
     tr=translations.get(f"{category_id}|||{item['name']}|||{item.get('description','')}",{}); left=[Paragraph(item['name'],aper_name)]
-    if tr.get('name'): left.append(Paragraph(tr['name'],aper_en))
+    translated_name=item.get('nameEn') or tr.get('name')
+    translated_description=item.get('descriptionEn') or tr.get('description')
+    if translated_name: left.append(Paragraph(translated_name,aper_en))
     if item.get('description'):
-        if tr.get('description'):
-            left.append(Paragraph(f"{item['description']} <font name='Inter400' size='7.8' color='#918980'> · {tr['description']}</font>",aper_desc_it))
+        if translated_description:
+            left.append(Paragraph(f"{item['description']} <font name='Inter400' size='7.8' color='#918980'> · {translated_description}</font>",aper_desc_it))
         else:
             left.append(Paragraph(item['description'],aper_desc_it))
     tab=Table([[left,Paragraph(item['price'],aper_price)]],colWidths=[col_width-21*mm,21*mm])

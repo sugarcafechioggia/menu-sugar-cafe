@@ -150,7 +150,7 @@ function english(value = '') {
 
 const normalize = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const label = category => categoryNames[category.id];
-const itemText = item => ({name:english(item.name), description:english(item.description)});
+const itemText = item => ({name:item.nameEn || english(item.name), description:item.descriptionEn || english(item.description)});
 
 const categoryAliases = {
   caffetteria:'caffe coffee cappuccino colazione breakfast', brioche:'brioche brioches croissant cornetto cornetti', succhi:'succo succhi juice juices spremuta spremute', bibite:'bibita bibite bevanda bevande drink drinks analcolico analcolici',
@@ -238,7 +238,7 @@ function render(data, query = '') {
   const sections = data.categories.map(category => {
     const categoryText = `${category.name} ${label(category)} ${categoryAliases[category.id] || ''}`;
     const categoryMatch = matches(needle, categoryText);
-    return {...category, items:byPrice(category.items.filter(item => {
+    return {...category, items:byPrice(category.items.filter(item => item.available !== false).filter(item => {
     const en = itemText(item);
     return categoryMatch || matches(needle, `${item.subsection || ''} ${item.subsectionEn || ''} ${item.name} ${item.description || ''} ${en.name} ${en.description || ''}`);
   }))}; }).filter(category => category.items.length);
@@ -253,7 +253,8 @@ function render(data, query = '') {
 
 function buildMenu() {
   if (!menuData) return;
-  nav.innerHTML = menuData.categories.map((category, i) => `<button type="button" data-id="${category.id}" class="${i === 0 ? 'active' : ''}">${category.name}<small>${label(category)}</small></button>`).join('');
+  const visibleCategories = menuData.categories.filter(category => category.items.some(item => item.available !== false));
+  nav.innerHTML = visibleCategories.map((category, i) => `<button type="button" data-id="${category.id}" class="${i === 0 ? 'active' : ''}">${category.name}<small>${label(category)}</small></button>`).join('');
   document.querySelector('#allergen-list').innerHTML = menuData.allergens.map((value,i) => `<li>${value}<small class="en-copy" lang="en">${allergensEn[i]}</small></li>`).join('');
   render(menuData, search.value);
 }
