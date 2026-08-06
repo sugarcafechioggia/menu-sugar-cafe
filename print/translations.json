@@ -1,0 +1,982 @@
+{
+  "caffetteria|||Caffè espresso / macchiato|||": {
+    "name": "Espresso / espresso macchiato",
+    "description": ""
+  },
+  "caffetteria|||Bicchiere d’acqua piccolo|||": {
+    "name": "Small glass of water",
+    "description": ""
+  },
+  "caffetteria|||Caffè corretto|||": {
+    "name": "Espresso with liqueur",
+    "description": ""
+  },
+  "caffetteria|||Caffè decaffeinato|||": {
+    "name": "Decaffeinated coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè d’orzo|||": {
+    "name": "Barley coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè d’orzo tazza grande|||": {
+    "name": "Large barley coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè ginseng|||": {
+    "name": "Ginseng coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè ginseng tazza grande|||": {
+    "name": "Large ginseng coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè shakerato|||": {
+    "name": "Shaken iced coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè americano|||": {
+    "name": "Americano coffee",
+    "description": ""
+  },
+  "caffetteria|||Macchiatone|||": {
+    "name": "",
+    "description": ""
+  },
+  "caffetteria|||Macchiatone decaffeinato|||": {
+    "name": "Large decaf macchiato",
+    "description": ""
+  },
+  "caffetteria|||Macchiatone d’orzo|||": {
+    "name": "Large barley macchiato",
+    "description": ""
+  },
+  "caffetteria|||Cappuccino|||": {
+    "name": "",
+    "description": ""
+  },
+  "caffetteria|||Cappuccino decaffeinato|||": {
+    "name": "Decaf cappuccino",
+    "description": ""
+  },
+  "caffetteria|||Cappuccino d’orzo|||": {
+    "name": "Barley cappuccino",
+    "description": ""
+  },
+  "caffetteria|||Cappuccino al ginseng|||": {
+    "name": "Ginseng cappuccino",
+    "description": ""
+  },
+  "caffetteria|||Caffè marocchino|||": {
+    "name": "Marocchino coffee",
+    "description": ""
+  },
+  "caffetteria|||Caffè mocaccino|||": {
+    "name": "Mocha coffee",
+    "description": ""
+  },
+  "caffetteria|||Latte caldo|||": {
+    "name": "Hot milk",
+    "description": ""
+  },
+  "caffetteria|||Latte macchiato|||": {
+    "name": "",
+    "description": ""
+  },
+  "caffetteria|||Cioccolata calda|||": {
+    "name": "Hot chocolate",
+    "description": ""
+  },
+  "caffetteria|||Cioccolata calda con panna e biscotti|||": {
+    "name": "Hot chocolate with whipped cream and biscuits",
+    "description": ""
+  },
+  "caffetteria|||Caffè speciale cioccolato o pistacchio e panna|||": {
+    "name": "Special coffee with chocolate or pistachio cream and whipped cream",
+    "description": ""
+  },
+  "caffetteria|||Zabaione caldo|||": {
+    "name": "Hot eggnog",
+    "description": ""
+  },
+  "caffetteria|||Zabaione caldo con panna e biscotti|||": {
+    "name": "Hot eggnog with whipped cream and biscuits",
+    "description": ""
+  },
+  "caffetteria|||Tè / camomilla / tisane|||": {
+    "name": "Tea / chamomile / herbal tea",
+    "description": ""
+  },
+  "caffetteria|||Tè / camomilla / tisane con biscotti|||": {
+    "name": "Tea / chamomile / herbal tea with biscuits",
+    "description": ""
+  },
+  "brioche|||Croissant vuoto|||": {
+    "name": "Plain croissant",
+    "description": ""
+  },
+  "brioche|||Croissant alla crema|||": {
+    "name": "Custard croissant",
+    "description": ""
+  },
+  "brioche|||Croissant all’albicocca|||": {
+    "name": "Apricot croissant",
+    "description": ""
+  },
+  "brioche|||Croissant al cioccolato|||": {
+    "name": "Chocolate croissant",
+    "description": ""
+  },
+  "brioche|||Croissant al pistacchio|||": {
+    "name": "Pistachio croissant",
+    "description": ""
+  },
+  "succhi|||Succo alla pesca|||": {
+    "name": "Peach juice",
+    "description": ""
+  },
+  "succhi|||Succo all’ACE|||": {
+    "name": "ACE juice",
+    "description": ""
+  },
+  "succhi|||Succo alla mela|||": {
+    "name": "Apple juice",
+    "description": ""
+  },
+  "succhi|||Succo alla pera|||": {
+    "name": "Pear juice",
+    "description": ""
+  },
+  "succhi|||Succo all’albicocca|||": {
+    "name": "Apricot juice",
+    "description": ""
+  },
+  "succhi|||Succo al mirtillo|||": {
+    "name": "Blueberry juice",
+    "description": ""
+  },
+  "succhi|||Succo all’ananas|||": {
+    "name": "Pineapple juice",
+    "description": ""
+  },
+  "succhi|||Spremuta d’arancia|||": {
+    "name": "Fresh orange juice",
+    "description": ""
+  },
+  "bibite|||Acqua 50 cl|||": {
+    "name": "Water 50 cl",
+    "description": ""
+  },
+  "bibite|||Acqua e menta 50 cl|||": {
+    "name": "Water with mint syrup 50 cl",
+    "description": ""
+  },
+  "bibite|||Coca-Cola 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Coca-Cola Zero 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Fanta 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Lemon Soda 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Chinotto 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Cedrata Tassoni 33 cl|||": {
+    "name": "Tassoni citron soda 33 cl",
+    "description": ""
+  },
+  "bibite|||Acqua Brillante 33 cl|||": {
+    "name": "Sparkling soda 33 cl",
+    "description": ""
+  },
+  "bibite|||Sprite 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Red Bull 25 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "bibite|||Tè alla pesca 33 cl|||": {
+    "name": "Peach iced tea 33 cl",
+    "description": ""
+  },
+  "bibite|||Tè al limone 33 cl|||": {
+    "name": "Lemon iced tea 33 cl",
+    "description": ""
+  },
+  "aperitivi-analcolici|||Gingerino|||": {
+    "name": "",
+    "description": ""
+  },
+  "aperitivi-analcolici|||Crodino|||": {
+    "name": "",
+    "description": ""
+  },
+  "aperitivi-analcolici|||San Bitter|||": {
+    "name": "",
+    "description": ""
+  },
+  "aperitivi-analcolici|||San Bitter Passion Fruit|||": {
+    "name": "",
+    "description": ""
+  },
+  "aperitivi-analcolici|||San Bitter Pompelmo / Zenzero|||": {
+    "name": "San Bitter grapefruit / ginger",
+    "description": ""
+  },
+  "aperitivi-analcolici|||Campari Soda|||": {
+    "name": "",
+    "description": ""
+  },
+  "aperitivi-analcolici|||Spritz analcolico|||Bitter, succo d’arancia, seltz, fettina d’arancia": {
+    "name": "Non-alcoholic spritz",
+    "description": "Bitter, orange juice, soda water, fettina d’orange"
+  },
+  "aperitivi-analcolici|||Aperitivo della casa (analcolico)|||Succo di mela, fiori di sambuco, Lemon Soda, seltz": {
+    "name": "House non-alcoholic aperitif",
+    "description": "Apple juice, elderflower syrup, lemon soda, soda water"
+  },
+  "aperitivi-alcolici|||Spritz Aperol|||Prosecco, Aperol, seltz, arancia": {
+    "name": "",
+    "description": "Prosecco, aperol, soda water, orange"
+  },
+  "aperitivi-alcolici|||Spritz Campari|||Prosecco, Campari, seltz, arancia": {
+    "name": "",
+    "description": "Prosecco, campari, soda water, orange"
+  },
+  "aperitivi-alcolici|||Spritz misto|||Prosecco, Aperol, Campari, seltz, arancia": {
+    "name": "",
+    "description": "Prosecco, aperol, campari, soda water, orange"
+  },
+  "aperitivi-alcolici|||Spritz Cynar|||Prosecco, Cynar, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, cynar, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz Select|||Prosecco, Select, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, select, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz rosso|||Aperol, Lambrusco, seltz, arancia": {
+    "name": "",
+    "description": "Aperol, lambrusco, soda water, orange"
+  },
+  "aperitivi-alcolici|||Spritz bianco|||Prosecco, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz Bull|||Aperol, Prosecco, Red Bull": {
+    "name": "",
+    "description": "Aperol, Prosecco, Red Bull"
+  },
+  "aperitivi-alcolici|||Spritz verde|||Prosecco, P31, seltz": {
+    "name": "",
+    "description": "Prosecco, p31, soda water"
+  },
+  "aperitivi-alcolici|||Spritz rosa|||Prosecco, liquore alla fragola, seltz": {
+    "name": "",
+    "description": "Prosecco, strawberry liqueur, soda water"
+  },
+  "aperitivi-alcolici|||Spritz giallo|||Prosecco, limoncello, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, limoncello, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz blu|||Prosecco, Curaçao, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, curaçao, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz nero|||Prosecco, liquirizia, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, liquorice liqueur, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz Hugo|||Prosecco, fiori di sambuco, seltz, menta, lime": {
+    "name": "",
+    "description": "Prosecco, elderflower syrup, soda water, mint, lime"
+  },
+  "aperitivi-alcolici|||Spritz viola|||Prosecco, Iovem, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, iovem, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz azzurro|||Prosecco, Venturo, seltz, limone": {
+    "name": "",
+    "description": "Prosecco, venturo, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz Halloween|||Marendry, amarena, gum nero, Prosecco, seltz, limone": {
+    "name": "",
+    "description": "Marendry, amarena, black gum syrup, Prosecco, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz del Capo|||Amaro del Capo, Prosecco, seltz, limone": {
+    "name": "",
+    "description": "Amaro del capo, Prosecco, soda water, lemon"
+  },
+  "aperitivi-alcolici|||Spritz orange|||Campari, spremuta d’arancia": {
+    "name": "",
+    "description": "Campari, fresh orange juice"
+  },
+  "aperitivi-alcolici|||Aperitivo della casa (alcolico)|||Prosecco, succo di mela, fiori di sambuco, Lemon Soda": {
+    "name": "House alcoholic aperitif",
+    "description": "Prosecco, apple juice, elderflower syrup, lemon soda"
+  },
+  "la-cantina|||Terre Nostrane|||Vino frizzante": {
+    "name": "",
+    "description": "Sparkling wine"
+  },
+  "la-cantina|||Prosecco DOC|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Spumante Fior d’Arancio|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Col Vetoraz DOC Millesimato|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Franciacorta Satèn|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Lugana|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Lugana Ca’ dei Frati|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Gewürztraminer|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Pinot Bianco|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Pinot Grigio|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Ribolla Gialla|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Chardonnay|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Soave|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Cabernet|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Valpolicella Classico DOC|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Valpolicella Ripasso DOC|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Merlot|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Amarone della Valpolicella|||": {
+    "name": "",
+    "description": ""
+  },
+  "la-cantina|||Lambrusco|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Grappa semplice|||": {
+    "name": "Grappa",
+    "description": ""
+  },
+  "liquori-amari|||Liquirizia|||": {
+    "name": "Liquorice liqueur",
+    "description": ""
+  },
+  "liquori-amari|||Limoncello|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Sambuca|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Montenegro|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Branca Menta|||": {
+    "name": "Branca mint",
+    "description": ""
+  },
+  "liquori-amari|||Fernet Branca|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Vecchia Romagna|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Amaro del Capo|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Stravecchio Branca|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Baileys|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Disaronno|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Punch|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||903|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Prime Uve|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Prugna|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Jack Daniel’s|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Jägermeister|||": {
+    "name": "",
+    "description": ""
+  },
+  "liquori-amari|||Vodka liscia|||": {
+    "name": "Straight vodka",
+    "description": ""
+  },
+  "liquori-amari|||Amarone OFF|||": {
+    "name": "",
+    "description": ""
+  },
+  "cocktails|||Martini rosso|||": {
+    "name": "",
+    "description": ""
+  },
+  "cocktails|||Martini bianco|||": {
+    "name": "",
+    "description": ""
+  },
+  "cocktails|||Mimosa|||Spremuta d’arancia, Prosecco": {
+    "name": "",
+    "description": "Fresh orange juice, Prosecco"
+  },
+  "cocktails|||Bellini|||Succo alla pesca, Prosecco": {
+    "name": "",
+    "description": "Peach juice, Prosecco"
+  },
+  "cocktails|||Americano|||Campari, vermouth, soda, arancia": {
+    "name": "",
+    "description": "Campari, vermouth, soda, orange"
+  },
+  "cocktails|||Gin Tonic|||Gin, acqua tonica, limone": {
+    "name": "",
+    "description": "Gin, tonic water, lemon"
+  },
+  "cocktails|||Gin Lemon|||Gin, Lemon Soda, limone": {
+    "name": "",
+    "description": "Gin, lemon soda, lemon"
+  },
+  "cocktails|||Vodka Red Bull|||Vodka, Red Bull": {
+    "name": "",
+    "description": "Vodka, Red Bull"
+  },
+  "cocktails|||Vodka Lemon|||Vodka, Lemon Soda": {
+    "name": "",
+    "description": "Vodka, lemon soda"
+  },
+  "cocktails|||Vodka Tonic|||Vodka, acqua tonica": {
+    "name": "",
+    "description": "Vodka, tonic water"
+  },
+  "cocktails|||Coca Rum|||Coca-Cola, rum": {
+    "name": "",
+    "description": "Coca-cola, rum"
+  },
+  "cocktails|||Coca Jack|||Coca-Cola, Jack Daniel’s": {
+    "name": "",
+    "description": "Coca-cola, jack daniel’s"
+  },
+  "cocktails|||Negroni|||Campari, gin, vermouth, arancia": {
+    "name": "",
+    "description": "Campari, gin, vermouth, orange"
+  },
+  "cocktails|||Negroni sbagliato|||Campari, spumante, vermouth, arancia": {
+    "name": "",
+    "description": "Campari, spumante, vermouth, orange"
+  },
+  "cocktails|||Caipiroska alla fragola rivisitata|||Vodka, sciroppo alla fragola, zucchero di canna, lime": {
+    "name": "",
+    "description": "Vodka, sciroppo alla fragola, brown sugar, lime"
+  },
+  "cocktails|||Sugar|||Rum bianco, sciroppo al cocco, lime, zucchero, menta, seltz": {
+    "name": "",
+    "description": "White rum, coconut syrup, lime, sugar, mint, soda water"
+  },
+  "cocktails|||Mojito|||Rum bianco, zucchero di canna, lime, seltz, menta": {
+    "name": "",
+    "description": "White rum, brown sugar, lime, soda water, mint"
+  },
+  "cocktails|||Black Mojito|||Rum bianco, liquirizia, zucchero di canna, lime, seltz, menta": {
+    "name": "",
+    "description": "White rum, liquorice liqueur, brown sugar, lime, soda water, mint"
+  },
+  "cocktails|||Piña Colada|||Succo d’ananas, rum bianco, sciroppo al cocco": {
+    "name": "",
+    "description": "Pineapple juice, white rum, coconut syrup"
+  },
+  "cocktails|||Violet|||Succo di mirtillo, vodka, fiori di sambuco": {
+    "name": "",
+    "description": "Blueberry juice, vodka, elderflower syrup"
+  },
+  "cocktails|||Blue Lagoon rivisitato|||Blue Curaçao, succo di lime, vodka, fiori di sambuco": {
+    "name": "",
+    "description": "Blue curaçao, lime juice, vodka, elderflower syrup"
+  },
+  "cocktails|||Timelapse|||Ricetta segreta": {
+    "name": "",
+    "description": "Secret recipe"
+  },
+  "birre-bottiglia|||Beck’s 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "birre-bottiglia|||Corona 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "birre-bottiglia|||Ichnusa non filtrata 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "birre-bottiglia|||Moretti Rossa 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "birre-bottiglia|||Ceres 33 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "birre-spina|||Moretti Bionda piccola 20 cl|||": {
+    "name": "Small Moretti Bionda 20 cl",
+    "description": ""
+  },
+  "birre-spina|||Moretti Bionda media 40 cl|||": {
+    "name": "Medium Moretti Bionda 40 cl",
+    "description": ""
+  },
+  "birre-spina|||Radler 40 cl|||": {
+    "name": "",
+    "description": ""
+  },
+  "toast|||Toastone|||Prosciutto cotto, fontina": {
+    "name": "Large toast",
+    "description": "Ham, Fontina"
+  },
+  "toast|||Toastone peperoni|||Prosciutto cotto, fontina, peperoni": {
+    "name": "Large toast with peppers",
+    "description": "Ham, Fontina, peppers"
+  },
+  "toast|||Toastone funghi|||Prosciutto cotto, fontina, funghi": {
+    "name": "Large toast with mushrooms",
+    "description": "Ham, Fontina, mushrooms"
+  },
+  "toast|||Toastone carciofi|||Prosciutto cotto, fontina, carciofi": {
+    "name": "Large toast with artichokes",
+    "description": "Ham, Fontina, artichokes"
+  },
+  "piadine|||Piadina prosciutto cotto e fontina|||": {
+    "name": "Piadina ham and Fontina",
+    "description": ""
+  },
+  "piadine|||Piadina magra|||Tacchino, fontina, insalata": {
+    "name": "Light piadina",
+    "description": "Turkey, Fontina, salad"
+  },
+  "piadine|||Piadina vegetariana|||Insalata, pomodoro, fontina": {
+    "name": "Vegetarian piadina",
+    "description": "Salad, tomato, Fontina"
+  },
+  "piadine|||Piadina prosciutto crudo e fontina|||": {
+    "name": "Piadina raw ham and Fontina",
+    "description": ""
+  },
+  "piadine|||Piadina prosciutto crudo, stracchino e rucola|||": {
+    "name": "Piadina prosciutto raw ham, stracchino and rocket",
+    "description": ""
+  },
+  "piadine|||Piadina prosciutto cotto, fontina, pomodoro e salsa rosa|||": {
+    "name": "Piadina ham, Fontina, tomato e cocktail sauce",
+    "description": ""
+  },
+  "piadine|||Piadina porchetta, fontina, sale e pepe|||": {
+    "name": "Piadina with roast pork, Fontina, salt and pepper",
+    "description": ""
+  },
+  "panini|||Panino mortadella|||": {
+    "name": "Mortadella sandwich",
+    "description": ""
+  },
+  "panini|||Panino salame e fontina|||": {
+    "name": "Salami and Fontina sandwich",
+    "description": ""
+  },
+  "panini|||Panino prosciutto cotto e fontina|||": {
+    "name": "Panino ham and Fontina",
+    "description": ""
+  },
+  "panini|||Panino prosciutto crudo e mozzarella|||": {
+    "name": "Panino raw ham and mozzarella",
+    "description": ""
+  },
+  "panini|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "panini-speciali|||Hamburger Sugar|||Hamburger di carne, fontina, salame caldo, pomodoro, salsa rosa": {
+    "name": "Sugar burger",
+    "description": "Burger di meat, Fontina, hot salami, tomato, cocktail sauce"
+  },
+  "panini-speciali|||Hot dog|||Würstel, ketchup, maionese": {
+    "name": "",
+    "description": "Würstel, ketchup, mayonnaise"
+  },
+  "panini-speciali|||Panino cotoletta|||Cotoletta, formaggio": {
+    "name": "Fried cutlet sandwich",
+    "description": "Fried cutlet, formaggio"
+  },
+  "panini-speciali|||Hamburger|||Hamburger, insalata, pomodoro, formaggio": {
+    "name": "Burger",
+    "description": "Burger, salad, tomato, formaggio"
+  },
+  "bruschette|||Bruschetta Margherita|||Pomodoro, mozzarella": {
+    "name": "",
+    "description": "Tomato, mozzarella"
+  },
+  "bruschette|||Bruschetta funghi|||Pomodoro, mozzarella, funghi": {
+    "name": "Bruschetta mushrooms",
+    "description": "Tomato, mozzarella, mushrooms"
+  },
+  "bruschette|||Bruschetta carciofi|||Pomodoro, mozzarella, carciofi": {
+    "name": "Bruschetta artichokes",
+    "description": "Tomato, mozzarella, artichokes"
+  },
+  "bruschette|||Bruschetta prosciutto cotto|||Pomodoro, mozzarella, prosciutto cotto": {
+    "name": "Bruschetta ham",
+    "description": "Tomato, mozzarella, ham"
+  },
+  "bruschette|||Bruschetta prosciutto crudo|||Pomodoro, mozzarella, prosciutto crudo": {
+    "name": "Bruschetta raw ham",
+    "description": "Tomato, mozzarella, raw ham"
+  },
+  "bruschette|||Bruschetta salamino piccante|||Pomodoro, mozzarella, salamino piccante": {
+    "name": "Spicy salami bruschetta",
+    "description": "Tomato, mozzarella, salamino piccante"
+  },
+  "bruschette|||Bruschetta porchetta e peperoni|||Pomodoro, mozzarella, porchetta, peperoni": {
+    "name": "Bruschetta roast pork e peppers",
+    "description": "Tomato, mozzarella, roast pork, peppers"
+  },
+  "bruschette|||Bruschetta Sugar|||Pomodoro, mozzarella, prosciutto crudo, rucola, pomodorini": {
+    "name": "",
+    "description": "Tomato, mozzarella, raw ham, rocket, cherry tomatoes"
+  },
+  "bruschette|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "pizze|||Pizza Margherita|||Pomodoro, mozzarella": {
+    "name": "",
+    "description": "Tomato, mozzarella"
+  },
+  "pizze|||Pizza prosciutto cotto|||Pomodoro, mozzarella, prosciutto cotto": {
+    "name": "Pizza ham",
+    "description": "Tomato, mozzarella, ham"
+  },
+  "pizze|||Pizza prosciutto crudo|||Pomodoro, mozzarella, prosciutto crudo": {
+    "name": "Pizza raw ham",
+    "description": "Tomato, mozzarella, raw ham"
+  },
+  "pizze|||Pizza funghi|||Pomodoro, mozzarella, funghi": {
+    "name": "Pizza mushrooms",
+    "description": "Tomato, mozzarella, mushrooms"
+  },
+  "pizze|||Pizza carciofi|||Pomodoro, mozzarella, carciofi": {
+    "name": "Pizza artichokes",
+    "description": "Tomato, mozzarella, artichokes"
+  },
+  "pizze|||Pizza Diavola|||Pomodoro, mozzarella, salame piccante": {
+    "name": "",
+    "description": "Tomato, mozzarella, spicy salami"
+  },
+  "pizze|||Pizza acciughe|||Pomodoro, mozzarella, acciughe": {
+    "name": "Pizza anchovies",
+    "description": "Tomato, mozzarella, anchovies"
+  },
+  "pizze|||Pizza tonno e cipolla|||Pomodoro, mozzarella, tonno, cipolla": {
+    "name": "Pizza tuna e onion",
+    "description": "Tomato, mozzarella, tuna, onion"
+  },
+  "pizze|||Pizza Capricciosa|||Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi": {
+    "name": "",
+    "description": "Tomato, mozzarella, ham, mushrooms, artichokes"
+  },
+  "pizze|||Pizza quattro formaggi|||Pomodoro, mozzarella, formaggi misti": {
+    "name": "",
+    "description": "Tomato, mozzarella, mixed cheeses"
+  },
+  "pizze|||Pizza quattro stagioni|||Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive": {
+    "name": "",
+    "description": "Tomato, mozzarella, ham, mushrooms, artichokes, olives"
+  },
+  "pizze|||Pizza Primavera|||Pomodoro, mozzarella, gorgonzola, pomodori": {
+    "name": "",
+    "description": "Tomato, mozzarella, Gorgonzola, pomodori"
+  },
+  "pizze|||Pizza Patatosa|||Pomodoro, mozzarella, patate fritte": {
+    "name": "",
+    "description": "Tomato, mozzarella, French fries"
+  },
+  "pizze|||Pizza Adriatico|||Pomodoro, mozzarella, tonno, olive, acciughe": {
+    "name": "",
+    "description": "Tomato, mozzarella, tuna, olives, anchovies"
+  },
+  "pizze|||Pizza Sugar|||Pomodoro, mozzarella, prosciutto crudo, rucola, mozzarella di bufala": {
+    "name": "",
+    "description": "Tomato, mozzarella, raw ham, rocket, buffalo mozzarella"
+  },
+  "pizze|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "antipasti|||Patatine fritte piccole|||": {
+    "name": "Small French fries",
+    "description": ""
+  },
+  "antipasti|||Patatine fritte grandi|||": {
+    "name": "Large French fries",
+    "description": ""
+  },
+  "antipasti|||Nuggets con patatine|||": {
+    "name": "Chicken nuggets with French fries",
+    "description": ""
+  },
+  "antipasti|||Tagliere di affettati piccolo|||": {
+    "name": "Small charcuterie board",
+    "description": ""
+  },
+  "antipasti|||Tagliere di affettati grande|||": {
+    "name": "Large charcuterie board",
+    "description": ""
+  },
+  "antipasti|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "cicchetti|||Polpettina di carne|||": {
+    "name": "Meatball",
+    "description": ""
+  },
+  "cicchetti|||Polpettina di verdure|||": {
+    "name": "Vegetable ball",
+    "description": ""
+  },
+  "cicchetti|||Crostino di baccalà mantecato|||": {
+    "name": "Crostino with creamed cod",
+    "description": ""
+  },
+  "cicchetti|||Crostino con baccalà alla vicentina|||": {
+    "name": "Crostino with Vicenza-style cod",
+    "description": ""
+  },
+  "cicchetti|||Crostino con mazzancolle in saor|||": {
+    "name": "Crostino with Venetian-style sweet-and-sour prawns",
+    "description": ""
+  },
+  "cicchetti|||Crostino con sarde in saor|||": {
+    "name": "Crostino with Venetian-style sweet-and-sour sardines",
+    "description": ""
+  },
+  "cicchetti|||Crostino tonno e gorgonzola|||": {
+    "name": "Crostino with tuna and Gorgonzola",
+    "description": ""
+  },
+  "cicchetti|||Crostino gorgonzola, noci e miele|||": {
+    "name": "Crostino with Gorgonzola, walnuts and honey",
+    "description": ""
+  },
+  "cicchetti|||Crostino prosciutto crudo, stracchino e noci|||": {
+    "name": "Crostino raw ham, stracchino e walnuts",
+    "description": ""
+  },
+  "cicchetti|||Mozzarella in carrozza|||": {
+    "name": "Fried mozzarella sandwich",
+    "description": ""
+  },
+  "cicchetti|||Crostino con stracchino, acciughe e prezzemolo|||": {
+    "name": "Crostino con stracchino, anchovies e parsley",
+    "description": ""
+  },
+  "cicchetti|||Polpette di baccalà|||": {
+    "name": "Polpette di cod",
+    "description": ""
+  },
+  "cicchetti|||Mozzarella in carrozza al nero di seppia e salmone|||": {
+    "name": "Squid-ink fried mozzarella sandwich with salmon",
+    "description": ""
+  },
+  "piatti-freddi|||Caprese|||Pomodori freschi, mozzarella, rucola": {
+    "name": "",
+    "description": "Fresh tomatoes, mozzarella, rocket"
+  },
+  "piatti-freddi|||Prosciutto crudo e mozzarella|||Prosciutto crudo, mozzarella": {
+    "name": "Raw ham and mozzarella",
+    "description": "Raw ham, mozzarella"
+  },
+  "piatti-freddi|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "insalatone|||Insalata mista|||Insalata, carote": {
+    "name": "Mixed salad",
+    "description": "Salad, carrots"
+  },
+  "insalatone|||Tonno|||Insalata mista, tonno": {
+    "name": "Tuna",
+    "description": "Mixed salad, tuna"
+  },
+  "insalatone|||Caesar Salad|||Insalata mista, tacchino, crostini di pane mignon, glassa di aceto balsamico, salsa Caesar, grana": {
+    "name": "",
+    "description": "Mixed salad, turkey, mini croutons, balsamic glaze, Caesar dressing and Grana Padano Padano"
+  },
+  "insalatone|||Aggiunte|||": {
+    "name": "Extras",
+    "description": ""
+  },
+  "insalatone-speciali|||Sugar|||Insalata mista, tonno, mozzarella, olive, noci, cipolla": {
+    "name": "",
+    "description": "Mixed salad, tuna, mozzarella, olives, walnuts and onion"
+  },
+  "insalatone-speciali|||Imperiale|||Insalata mista, tonno, mozzarella, olive, noci, cipolla, crostini di pane, pomodoro a fette": {
+    "name": "",
+    "description": "Mixed salad, tuna, mozzarella, olives, walnuts, onion, croutons and sliced tomato"
+  },
+  "primi|||Spaghetti pomodoro e basilico|||": {
+    "name": "Spaghetti with tomato and basil",
+    "description": ""
+  },
+  "primi|||Spaghetti all’arrabbiata|||": {
+    "name": "Spaghetti arrabbiata",
+    "description": ""
+  },
+  "primi|||Spaghetti alla carbonara|||": {
+    "name": "Spaghetti carbonara",
+    "description": ""
+  },
+  "primi|||Tortellini panna e prosciutto|||": {
+    "name": "Tortellini with cream and ham",
+    "description": ""
+  },
+  "primi|||Spaghetti al ragù|||": {
+    "name": "Spaghetti with meat sauce",
+    "description": ""
+  },
+  "primi|||Lasagne|||": {
+    "name": "",
+    "description": ""
+  },
+  "primi|||Mezze penne al salmone|||": {
+    "name": "Mezze penne with salmon",
+    "description": ""
+  },
+  "primi|||Spaghetti ai frutti di mare|||": {
+    "name": "Seafood spaghetti",
+    "description": ""
+  },
+  "primi|||Spaghetti alle vongole|||": {
+    "name": "Spaghetti with clams",
+    "description": ""
+  },
+  "primi|||Risotto alla pescatora|||": {
+    "name": "Seafood risotto",
+    "description": ""
+  },
+  "primi|||Cestino di pane e grissini|||": {
+    "name": "Bread and breadstick basket",
+    "description": ""
+  },
+  "secondi|||Baccalà mantecato con polenta|||": {
+    "name": "Creamed cod with polenta",
+    "description": ""
+  },
+  "secondi|||Tris di baccalà (mantecato, alla vicentina, polpette di baccalà) con polenta|||": {
+    "name": "Tris di cod (mantecato, alla vicentina, polpette di cod) con polenta",
+    "description": ""
+  },
+  "secondi|||Sarde in saor con polenta|||": {
+    "name": "Venetian-style sweet-and-sour sardines with polenta",
+    "description": ""
+  },
+  "secondi|||Mazzancolle in saor con polenta|||": {
+    "name": "Venetian-style sweet-and-sour prawns with polenta",
+    "description": ""
+  },
+  "secondi|||Baccalà alla vicentina con polenta|||": {
+    "name": "Vicenza-style cod with polenta",
+    "description": ""
+  },
+  "secondi|||Cotoletta con patatine fritte|||": {
+    "name": "Fried cutlet with French fries",
+    "description": ""
+  },
+  "dolci|||Tiramisù con panna|||": {
+    "name": "Tiramisù with whipped cream",
+    "description": ""
+  },
+  "dolci|||Piadina con cioccolato|||": {
+    "name": "Piadina with chocolate spread",
+    "description": ""
+  },
+  "dolci|||Tartufo bianco|||": {
+    "name": "",
+    "description": ""
+  },
+  "dolci|||Tartufo nero|||": {
+    "name": "",
+    "description": ""
+  }
+}
