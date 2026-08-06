@@ -70,8 +70,11 @@ jobs:
         run: |
           test -n "$TELEGRAM_BOT_TOKEN"
           test -n "$TELEGRAM_CHAT_ID"
+          TIMESTAMP=$(TZ=Europe/Rome date '+%Y-%m-%d_%H-%M')
+          NOME_FILE="menu-sugar-cafe_${TIMESTAMP}.pdf"
+          DATA_ORA=$(TZ=Europe/Rome date '+%d/%m/%Y alle %H:%M')
           curl --fail-with-body --silent --show-error \
             -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument" \
             -F "chat_id=${TELEGRAM_CHAT_ID}" \
-            -F "document=@menu-sugar-cafe-a4-2-colonne.pdf;type=application/pdf;filename=menu-sugar-cafe.pdf" \
-            -F "caption=Sugar Cafè — menù aggiornato automaticamente%0Ahttps://menu.sugarcafe.it"
+            -F "document=@menu-sugar-cafe-a4-2-colonne.pdf;type=application/pdf;filename=${NOME_FILE}" \
+            -F "caption=Sugar Cafè — menù prodotto il ${DATA_ORA}%0Ahttps://menu.sugarcafe.it"
