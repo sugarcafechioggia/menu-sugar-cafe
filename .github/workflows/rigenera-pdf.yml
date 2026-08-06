@@ -7,6 +7,7 @@ on:
       - menu.json
       - print/**
       - assets/**
+      - .sync-trigger
       - .github/workflows/rigenera-pdf.yml
   workflow_dispatch:
 
@@ -15,7 +16,7 @@ permissions:
 
 concurrency:
   group: rigenera-pdf-menu
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   genera-pdf:
