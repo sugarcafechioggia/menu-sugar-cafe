@@ -62,3 +62,16 @@ jobs:
           git add menu-sugar-cafe-a4-2-colonne.pdf
           git commit -m "Rigenera PDF del menu"
           git push
+
+      - name: Invia il PDF su Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          test -n "$TELEGRAM_BOT_TOKEN"
+          test -n "$TELEGRAM_CHAT_ID"
+          curl --fail-with-body --silent --show-error \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendDocument" \
+            -F "chat_id=${TELEGRAM_CHAT_ID}" \
+            -F "document=@menu-sugar-cafe-a4-2-colonne.pdf;type=application/pdf;filename=menu-sugar-cafe.pdf" \
+            -F "caption=Sugar Cafè — menù aggiornato automaticamente%0Ahttps://menu.sugarcafe.it"
