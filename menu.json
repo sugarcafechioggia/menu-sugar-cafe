@@ -1,7 +1,7 @@
 {
   "restaurant": "Sugar Cafè",
   "currency": "EUR",
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "categories": [
     {
       "id": "caffetteria",
@@ -9,7 +9,7 @@
       "items": [
         {
           "name": "Caffè espresso / macchiato",
-          "price": "1,40 €"
+          "price": "1,30 €"
         },
         {
           "name": "Bicchiere d’acqua piccolo",
