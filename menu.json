@@ -1,7 +1,7 @@
 {
   "restaurant": "Sugar Cafè",
   "currency": "EUR",
-  "lastUpdated": "2026-08-08",
+  "lastUpdated": "2026-08-09",
   "categories": [
     {
       "id": "caffetteria",
@@ -602,11 +602,13 @@
       "items": [
         {
           "name": "Martini rosso",
-          "price": "6,00 €"
+          "price": "6,00 €",
+          "nameEn": "Red Martini"
         },
         {
           "name": "Martini bianco",
-          "price": "6,00 €"
+          "price": "6,00 €",
+          "nameEn": "White Martini"
         },
         {
           "name": "Mimosa",
